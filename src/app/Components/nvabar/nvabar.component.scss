@@ -1,11 +1,27 @@
 .mat-toolbar{
-  background-color: rgb(227, 238, 240);
-  .example{
+   top: 0%;
+   left: 0%;
+   position: fixed;
+   z-index: 0;
+  background-color:white;
+  .example1{
+      margin-left: 2rem;
       flex: 1 1 auto;
       .links{
           margin: 20px;
           font-size: 15px;
       }
   }
+  .example2{
+    margin-right: 0.001rem;
+    flex: 1 1 auto;
+    .links{
+        margin: 20px;
+        font-size: 15px;
+    }
+}
+}
+#logo{
+    margin-left: 5rem;
 }
 
