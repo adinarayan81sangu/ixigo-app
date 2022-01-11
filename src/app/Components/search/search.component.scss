@@ -1,15 +1,16 @@
 section{
     // background-image: url('../../../assets/images/londo.jpg');
     margin-top: 62px;
-    background-color: yellowgreen;
+    background-color: #fce9ef;
     width: 100%;
-    height: 70%;
+    height: 90%;
     background-repeat: no-repeat;
     background-size: cover;
-    
     position: relative;
     mat-form-field{
-        margin-right: 10px;
+        margin: 20px;
+        margin-left: 0;
+
     }
     .bcimg{
         background-image: url('../../../assets/images/londo.jpg');
@@ -21,17 +22,19 @@ section{
            background-position: center center;
     }
 }
+#baner1{
+    position: absolute;
+    top:70%;
+     left: 6%;
+    margin: 20px;
+}
 .form
 {
     position: absolute;
     top: 30%;
-    left: 9%;
-    right: 9%;
+    left: 10%;
+    right: 10%;
 }
-
-
-
-
 #repeat{
     font-size: 20px;
     position: relative;
